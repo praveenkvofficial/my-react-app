@@ -14,7 +14,7 @@ const App = () => {
         return <div className="error">Error: {error}</div>;
     }
 
-    const placeholderDomains = ['placeimg.com', 'loremflickr.com', 'dummyimage.com', 'placehold.co', 'example.com'];
+    const placeholderDomains = ['placeimg.com', 'loremflickr.com', 'dummyimage.com', 'placehold.co', 'example.com', 'escuelajs.co','placekitten.com'];
 
     // Filter the data to only include products with valid image URLs
     const validProducts = data.filter(item => 
